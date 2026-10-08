@@ -137,8 +137,8 @@ def unregistered_format_hint(path) -> str:
         return ''
     extra = _OPTIONAL_FORMAT_EXTRAS.get(name, 'format')
     return (
-        f" The {name!r} format is not registered (its optional dependencies"
-        f" are missing): pip install \"stable-worldmodel[{extra}]\""
+        f' The {name!r} format is not registered (its optional dependencies'
+        f' are missing): pip install "stable-worldmodel[{extra}]"'
     )
 
 
